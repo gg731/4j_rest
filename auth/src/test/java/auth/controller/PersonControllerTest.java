@@ -72,5 +72,6 @@ class PersonControllerTest {
                 .delete("http://localhost:8080/person/{id}", "1")
                 .contentType(MediaType.APPLICATION_JSON)).andDo(print())
                 .andExpect(status().isOk());
+
     }
 }
