@@ -1,0 +1,7 @@
+package chat.repository;
+
+import chat.domain.Message;
+import org.springframework.data.repository.CrudRepository;
+
+public interface MessageRepository extends CrudRepository<Message, Integer> {
+}
